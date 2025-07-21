@@ -1,7 +1,6 @@
 import { createRoot } from "react-dom/client";
+import MainLayout from "./layouts/main";
 
 const root = createRoot(document.body);
 
-root.render(
-  <h2 className="text-2xl font-semibold text-cyan-600">Hello from React!</h2>
-);
+root.render(<MainLayout />);
